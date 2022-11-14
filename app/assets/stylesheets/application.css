@@ -13,3 +13,28 @@
  *= require_tree .
  *= require_self
  */
+ .main-header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #42126e;
+  color: rgb(177, 178, 224);
+  text-shadow: 2px 2px 2px #000000;
+  margin: 10px auto;
+  width: 50vw;
+  border-radius: 10px;
+ }
+
+ a {
+  background-color: #55836a;
+  color: rgb(214, 210, 204);
+  text-shadow: 2px 2px 2px #000000;
+  padding: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 10px 0;
+ }
+
+ .talk {
+  border-left: 6px solid rgb(133, 136, 133);
+ }
